@@ -1,0 +1,4 @@
+SmartWatchSendSMSExtension
+==========================
+
+SendSMS - Smart Extras™
