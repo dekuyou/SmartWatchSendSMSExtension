@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Name of app, shown when installing/uninstalling extension -->
+    <string name="app_name">SendSMS extension</string>
+    <!-- Title of preference activity -->
+    <string name="preference_activity_title">SendSMS settings</string>
+    <!-- Name of extension, shown in preferences -->
+    <string name="extension_name">SendSMS</string>
+    <!-- Configuration title shown in preferences -->
+    <string name="configuration_text">SendSMS settings</string>
+    <!-- Menu option shown in preferences -->
+    <!-- Read me text shown in dialog -->
+
+    <!-- Text drawn in control on Smart Wireless Headset pro-->
+
+</resources>

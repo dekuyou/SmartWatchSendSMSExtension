@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceCategory android:title="Messages" android:key="Messages" android:order="10">
+    <EditTextPreference android:title="Msg1" android:key="Msg1" android:order="50"></EditTextPreference>
+    <EditTextPreference android:title="Msg2" android:key="Msg2" android:order="60"></EditTextPreference>
+    <EditTextPreference android:title="Msg3" android:key="Msg3" android:order="70"></EditTextPreference>
+    <EditTextPreference android:title="Msg4" android:key="Msg4" android:order="80"></EditTextPreference>
+    <EditTextPreference android:title="Msg5" android:key="Msg5" android:order="90"></EditTextPreference>
+</PreferenceCategory>
+<PreferenceCategory android:title="contacts" android:key="contacts" android:order="20" >
+    <CheckBoxPreference android:key="contact0" android:order="0" android:title="view top"></CheckBoxPreference>
+    <EditTextPreference android:key="contact1" android:title="contact1" android:order="10" android:inputType="number"></EditTextPreference>
+</PreferenceCategory>
+
+</PreferenceScreen>
