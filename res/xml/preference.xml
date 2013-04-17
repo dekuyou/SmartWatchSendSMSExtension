@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceScreen android:title="More?"
+    android:summary="more preset message and ContactList?"
+    android:key="paycersion">
+    <intent android:action="android.intent.action.VIEW"
+        android:targetPackage="jp.ddo.dekuyou.liveware.extension.sendsms"
+        android:targetClass="jp.ddo.dekuyou.android.util.PaydVersionConfirm" />
+</PreferenceScreen>
 <PreferenceCategory android:title="Messages" android:key="Messages" android:order="10">
     <EditTextPreference android:title="Msg1" android:key="Msg1" android:order="50"></EditTextPreference>
     <EditTextPreference android:title="Msg2" android:key="Msg2" android:order="60"></EditTextPreference>

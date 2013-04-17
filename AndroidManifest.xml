@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="jp.ddo.dekuyou.liveware.extension.sendsms" android:versionName="0.4" android:versionCode="4">
+      package="jp.ddo.dekuyou.liveware.extension.sendsms" android:versionName="0.5" android:versionCode="5">
     <uses-sdk android:minSdkVersion="7" />
     <uses-permission android:name="android.permission.READ_CONTACTS"></uses-permission>
     <uses-permission android:name="android.permission.READ_SMS"></uses-permission>
@@ -46,6 +46,12 @@
                 <action android:name="com.sonyericsson.extras.aef.control.SWIPE_EVENT"/>
             </intent-filter>
         </receiver>
-
+        
+        <activity android:name="jp.ddo.dekuyou.android.util.PaydVersionConfirm"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.Translucent.NoTitleBar"
+                  >
+        </activity>
+        
     </application>
 </manifest>

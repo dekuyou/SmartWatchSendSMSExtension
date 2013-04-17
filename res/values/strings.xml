@@ -12,5 +12,10 @@
     <!-- Read me text shown in dialog -->
 
     <!-- Text drawn in control on Smart Wireless Headset pro-->
+    <string name="ConfirmTitle">more?</string>
+    <string name="ConfirmMessage">want more preset Text？, want more preset ContactList?</string>
+    <string name="ConfirmYes">Yes</string>
+    <string name="ConfirmNo">No</string>
+    
 
 </resources>

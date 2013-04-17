@@ -57,7 +57,6 @@ import android.text.TextPaint;
 import com.sonyericsson.extras.liveware.aef.control.Control;
 import com.sonyericsson.extras.liveware.extension.util.control.ControlExtension;
 import com.sonyericsson.extras.liveware.extension.util.control.ControlTouchEvent;
-import com.sonyericsson.extras.liveware.sdk.R;
 
 /**
  * The sample control for SmartWatch handles the control on the accessory.

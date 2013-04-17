@@ -31,13 +31,12 @@
 
 package jp.ddo.dekuyou.liveware.extension.sendsms;
 
+import android.content.ContentValues;
+import android.content.Context;
+
 import com.sonyericsson.extras.liveware.aef.registration.Registration;
 import com.sonyericsson.extras.liveware.extension.util.ExtensionUtils;
 import com.sonyericsson.extras.liveware.extension.util.registration.RegistrationInformation;
-import com.sonyericsson.extras.liveware.sdk.R;
-
-import android.content.ContentValues;
-import android.content.Context;
 
 /**
  * Provides information needed during extension registration
